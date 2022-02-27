@@ -12,7 +12,7 @@ function load_language($mod_language_name)
         return $USERLANG.'/'.$mod_language_name;
     }
 
-    return $THIS_BASEPATH.'/language/english/'.$mod_language_name;
+    return $xConfig["THIS_BASEPATH"].'/language/english/'.$mod_language_name;
 }
 ?>
 
