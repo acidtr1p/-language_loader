@@ -20,4 +20,6 @@ function load_language($mod_language_name)
 <?php
 global $USERLANG;
 require_once load_language('lang_blocks.php');
+
+stderr($language['ERROR'], $language['REACHED_MAX_USERS']);
 ?>
